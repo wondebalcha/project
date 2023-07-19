@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Annual Activities</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Annual Activities</h1>
+
+    <h2>Work Unit Planning</h2>
+    <form>
+      <label for="work-unit">Select Work Unit:</label>
+      <select id="work-unit">
+        <option value="work-unit-1">Work Unit 1</option>
+        <option value="work-unit-2">Work Unit 2</option>
+        <option value="work-unit-3">Work Unit 3</option>
+      </select>
+      <br><br>
+
+      <label for="activity">Enter Activity:</label>
+      <input type="text" id="activity" name="activity">
+      <br><br>
+
+      <button type="submit">Add Activity</button>
+    </form>
+
+    <h2>Management Approval</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Work Unit</th>
+          <th>Activity</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Work Unit 1</td>
+          <td>Annual Report</td>
+          <td>Approved</td>
+        </tr>
+        <tr>
+          <td>Work Unit 2</td>
+          <td>Training Program</td>
+          <td>Pending Approval</td>
+        </tr>
+        <tr>
+          <td>Work Unit 3</td>
+          <td>Product Launch</td>
+          <td>Approved</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Activity Assignment</h2>
+    <form>
+      <label for="activity">Select Activity:</label>
+      <select id="activity">
+        <option value="annual-report">Annual Report</option>
+        <option value="training-program">Training Program</option>
+        <option value="product-launch">Product Launch</option>
+      </select>
+      <br><br>
+
+      <label for="team">Assign to Team:</label>
+      <select id="team">
+        <option value="team-1">Team 1</option>
+        <option value="team-2">Team 2</option>
+        <option value="team-3">Team 3</option>
+      </select>
+      <br><br>
+
+      <button type="submit">Assign Activity</button>
+    </form>
+
+    <h2>Task Assignment</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Activity</th>
+          <th>Sub-Activity</th>
+          <th>Assigned To</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Annual Report</td>
+          <td>Financial Analysis</td>
+          <td>John Smith</td>
+        </tr>
+        <tr>
+          <td>Training Program</td>
+          <td>Module 1: Introduction</td>
+          <td>Jane Doe</td>
+        </tr>
+        <tr>
+          <td>Product Launch</td>
+          <td>Marketing Campaign</td>
+          <td>Bob Johnson</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Progress Tracking</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Task</th>
+          <th>Assigned To</th>
+          <th>Start Date</th>
+          <th>End Date</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Financial Analysis</td>
+          <td>John Smith</td>
+          <td>01/01/2023</td>
+          <td>01/31/2023</td>
+          <td>In Progress</td>
+        </tr>
+        <tr>
+          <td>Module 1: Introduction</td>
+          <td>Jane Doe</td>
+          <td>02/01/2023</td>
+          <td>02/28/2023</td>
+          <td>Not Started</td>
+        </tr>
+        <tr>
+          <td>Marketing Campaign</td>
+          <td>Bob Johnson</td>
+          <td>03/01/2023</td>
+          <td>03/31/2023</td>
+          <td>Complete</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Resource Allocation</h2>
+    <form>
+      <label for="resources">Select Resources:</label>
+      <select id="resources" multiple>
+        <option value="resource-1">Resource 1</option>
+        <option value="resource-2">Resource 2</option>
+        <option value="resource-3">Resource 3</option>
+      </select>
+      <br><br>
+
+      <label for="task">Assign to Task:</label>
+      <select id="task">
+        <option value="financial-analysis">Financial Analysis</option>
+        <option value="module-1">Module 1: Introduction</option>
+        <option value="marketing-campaign">Marketing Campaign</option>
+      </select>
+      <br><br>
+
+      <button type="submit">Allocate Resources</button>
+    </form>
+
+    <h2>Notifications</h2>
+    <ul>
+      <li>Team 2 has been assigned the Training Program activity.</li>
+      <li>The Financial Analysis task is overdue.</li>
+      <li>Resource 3 has been allocated to the Marketing Campaign task.</li>
+    </ul>
+
+    <h2>Communication</h2>
+    <form>
+      <label for="message">Send Message:</label>
+      <input type="text" id="message" name="message">
+      <br><br>
+
+      <label for="recipient">To:</label>
+      <select id="recipient">
+        <option value="john-smith">John Smith</option>
+        <option value="jane-doe">Jane Doe</option>
+        <option value="bob-johnson">Bob Johnson</option>
+      </select>
+      <br><br>
+
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
