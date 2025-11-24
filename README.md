@@ -1,3 +1,1 @@
-# project
-this project is used for know ourself
-the other form objective of this project is usede for tell how to use html and css
+A Strategic Planning Management System helps organizations plan, execute, and track their long-term goals. It turns vision and strategy into measurable objectives, assigns tasks to responsible teams, tracks performance using KPIs, and provides reports to evaluate progress. It ensures goals are achieved efficiently through continuous monitoring and improvement.
